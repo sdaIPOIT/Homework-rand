@@ -3,11 +3,11 @@
 #include<cstdlib>
 #include<ctime>
 using namespace std;
-long double fctr(int n)
+long double fctr(int f)
 {
 	long double result = 1;
-	for (; 1 < n; --n) {
-		result = result * n;
+	for (; 1 < f; --f) {
+		result = result * f;
 	}
 	return result;
 }
